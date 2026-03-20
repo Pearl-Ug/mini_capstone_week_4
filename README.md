@@ -54,7 +54,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/SPARK-Academy/Mini-Capstone-2026-Pearl-Ug.git
+git clone https://github.com/Pearl-Ug/mini_capstone_week_4
 cd Mini-Capstone-2026-Pearl-Ug
 ```
 
