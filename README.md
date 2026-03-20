@@ -8,31 +8,31 @@
 
 ## 📌 Project Title
 
-> Replace this line with the full name of your assigned project
+> Hospital KPI Dashboard
 > e.g. *Patient Records Management System*
 
 ---
 
 ## 👥 Team Name & Members
 
-**Team Name:** `Team Name`
+**Team Name:** Team Pearl AI
 
 | Full Name | Task Carried Out |
 |-----------|-----------------|
-| e.g. Amina Yusuf | Built the Patient class and RecordsManager class |
-| e.g. Kwame Asante | Handled data loading and cleaning with Pandas |
-| e.g. Chidera Obi | Created all three visualisations using Matplotlib |
-| e.g. Fatima Al-Hassan | Wrote standalone functions and the main program loop |
-| e.g. Lena Mokoena | Wrote the README and assembled the PDF report |
+| Ayebare Vicky | Built the Hospital class and the Department class, and error handling |
+| Namuhubembe Melisa Grace | Handled data cleaning and visualization |
+| Mayinja Bob Williams | Reviwed the initial Department class and Hospital class |
+| Matovu Steven Ziritwawula | Drafted the README file and the one-page report |
+| Mudhasi Andrew | Reviewed the README file and the one-page report |
 
 ---
 
 ## 📖 What This Project Does
 
 > Write 2–3 sentences here explaining:
-> - What your program does
-> - What real-world problem it addresses
-> - Who would use it in a health or clinical setting
+> - The program displays the different department plus their corresponding KPIs: bed occupancy, average wait time, and scan utilization.
+> - The program addresses the lack of data driven decision making in hospitals by enabling evidence-based allocation of resources across different hospital departments.
+> - The hospital administrators and department heads would use this program.
 
 ---
 
@@ -95,14 +95,15 @@ seaborn
 > Add any additional libraries your team uses below these.
 
 ---
+numpy
 
 ## 📊 Visualisations
 
 > Briefly describe the 3 charts your project produces:
 >
-> 1. **Chart 1** — e.g. Bar chart showing diagnosis frequency across all patients
-> 2. **Chart 2** — e.g. Histogram showing age distribution of patients
-> 3. **Chart 3** — e.g. Pie chart showing gender breakdown
+> 1. **Chart 1** — Bar Chart showing the average wait time(minutes) across all departments
+> 2. **Chart 2** — Heat Map showing daily bed occupancy rate per department
+> 3. **Chart 3** — Line Chart showing daily scan volume across all departments.
 
 ---
 
@@ -111,13 +112,13 @@ seaborn
 > Briefly list the classes and standalone functions in your project:
 >
 > **Classes:**
-> - `ClassName` — what it does
-> - `ClassName` — what it does
+> - `Department` — It loads hospital data, lets the user select a preferred department, and retrieves data for that department.
+> - `Hospital` — It calculates key performance indicators for the selected department from the Department class.
 >
 > **Standalone Functions:**
-> - `function_name()` — what it does
-> - `function_name()` — what it does
-> - `function_name()` — what it does
+> - `Department.load_data()` — Loads hospital data and filters it to return one selected department's records.
+> - `Hospital.calculate_kpis` — Calculates key performance indicators
+
 
 ---
 
