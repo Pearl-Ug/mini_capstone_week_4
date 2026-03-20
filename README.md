@@ -54,8 +54,8 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/SPARK-Academy/Mini-Capstone-2026-Team-Name.git
-cd Mini-Capstone-2026-Team-Name
+git clone https://github.com/SPARK-Academy/Mini-Capstone-2026-Pearl-Ug.git
+cd Mini-Capstone-2026-Pearl-Ug
 ```
 
 ### 2. Install required libraries
